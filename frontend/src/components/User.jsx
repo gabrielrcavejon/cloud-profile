@@ -10,7 +10,7 @@ const User = ({ user }) => (
     {user.curriculum && 
       <div className="m-3">
         <h4 className="card-title text-center font-weight-bold">Currículo:</h4>
-        <h5 className="card-title text-center">{user.curriculum}</h5>
+        <h5 className="card-title text-center" style={{whiteSpace: 'pre-wrap'}}>{user.curriculum}</h5>
       </div>
     } 
     {(user.curriculum && user.socialnetwork) && <hr />} 
