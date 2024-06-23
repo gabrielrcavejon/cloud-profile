@@ -23,6 +23,6 @@ Agora com o ambiente pronto, execute os seguintes passos:
 
 ## Como Usar  
 
-1. A pasta frontend execute: `npm run dev`
+1. Na pasta frontend execute: `npm run dev`
 2. Na pasta backend execute: `npm run start`
 3. Acesse no navegador: `http://localhost:5173/register` para criar um registro, e `http://localhost:5173/users` para ver registros 
