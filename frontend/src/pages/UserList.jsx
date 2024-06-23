@@ -7,7 +7,7 @@ const UserList = () => {
   useEffect(() => {
     const getUser = async () => {
       try {
-        const response = await fetch('http://192.168.0.104:3000/user');
+        const response = await fetch('http://localhost:3000/user');
         const data = await response.json();
         setUser(data);
       } catch (error) {
