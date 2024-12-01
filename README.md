@@ -1,6 +1,6 @@
 # Cloud Profile
 
-Cloud Profile is a node.js project, where photos and resumes can be shared.
+Cloud Profile é um projeto node.js, onde fotos e currículos podem ser compartilhados.
 
 ## Instalação
 
